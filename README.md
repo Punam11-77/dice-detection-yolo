@@ -12,83 +12,83 @@ Train a YOLO model using a custom dataset
 Use Intel RealSense camera for image acquisition
 Prepare for future robot integration
 
-### Hardware
+## Hardware
 The following hardware was used:
 
-Intel RealSense D435i Camera
-#Computer running Windows
-#Custom dice dataset
-#UR Robot (future integration)
+-Intel RealSense D435i Camera
+-Computer running Windows
+-Custom dice dataset
+-UR Robot (future integration)
 
-### Software
+## Software
 The following software tools were used:
 
-Python
-OpenCV
-Roboflow
-Ultralytics YOLOv8
-Visual Studio Code
+-Python
+-OpenCV
+-Roboflow
+-Ultralytics YOLOv8
+-Visual Studio Code
 
-### Dataset Collection
+## Dataset Collection
 Images were collected using the Intel RealSense D435i camera positioned above the workspace.
 
 Dataset statistics:
 
 Total Images: 518
 Dice Classes:
-dice_1
-dice_2
-dice_3
-dice_4
-dice_5
-dice_6
+-dice_1
+-dice_2
+-dice_3
+-dice_4
+-dice_5
+-dice_6
 
 Different orientations and positions of the dice were captured to improve model robustness.
 
-### Data Annotation
+## Data Annotation
 All images were uploaded to Roboflow and manually annotated.
 
 Each dice image was assigned one of six classes corresponding to the visible face value:
-dice_1
-dice_2
-dice_3
-dice_4
-dice_5
-dice_6
+-dice_1
+-dice_2
+-dice_3
+-dice_4
+-dice_5
+-dice_6
 The annotated dataset was exported in YOLO format.
 
-### Training Workflow
-RealSense Camera
+## Training Workflow
+-RealSense Camera
         ↓
-Image Collection
+-Image Collection
         ↓
-Annotation (Roboflow)
+-Annotation (Roboflow)
         ↓
-Dataset Export
+-Dataset Export
         ↓
-YOLOv8 Training
+-YOLOv8 Training
         ↓
-Model Testing
+-Model Testing
         ↓
-Real-Time Detection
+-Real-Time Detection
 
-### Project Status
-Completed:
+## Project Status
+### Completed:
 
- RealSense camera setup
- Image collection
- Image annotation
- Dataset export
+ -RealSense camera setup
+- Image collection
+ -Image annotation
+- Dataset export
 
-In Progress:
+### In Progress:
 
- YOLO model training
- Model evaluation
- Real-time detection
+- YOLO model training
+- Model evaluation
+ -Real-time detection
 
-Future Work:
+### Future Work:
 
- UR robot integration
- Dice sorting automation
- Real-time robotic decision making
+ -UR robot integration
+- Dice sorting automation
+ -Real-time robotic decision making
 
