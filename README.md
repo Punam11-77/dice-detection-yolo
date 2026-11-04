@@ -16,9 +16,9 @@ Prepare for future robot integration
 The following hardware was used:
 
 Intel RealSense D435i Camera
-Computer running Windows
-Custom dice dataset
-UR Robot (future integration)
+#Computer running Windows
+#Custom dice dataset
+#UR Robot (future integration)
 
 ### Software
 The following software tools were used:
